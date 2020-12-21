@@ -1,0 +1,1248 @@
+DEBUG	2020-08-03 13:37:10,962	
+call ora_drop_tables():
+DEBUG	2020-08-03 13:37:11,520	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:37:11,603	[192.168.238.56:22] close: ok
+ERROR	2020-08-03 13:37:11,604	[Errno 13] Permission denied
+DEBUG	2020-08-03 13:38:07,798	
+call ora_drop_tables():
+DEBUG	2020-08-03 13:38:18,569	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:38:18,596	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 13:38:18,596	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:38:29,213	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:38:29,227	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 13:38:29,238	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 13:38:29,238	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:38:29,527	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:38:29,535	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 13:38:29,560	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 13:38:29,560	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:38:29,929	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:38:29,944	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 13:38:29,969	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 13:38:29,970	[192.168.238.56:22] error: mkdir: cannot create directory `/': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+/home/oracle//ora_drop_tables.sh: line 29: //run.sh: Permission denied
+chmod: changing permissions of `//run.sh': Operation not permitted
+/home/oracle//ora_drop_tables.sh: line 42: //parall_cmd_drop.sh: Permission denied
+/home/oracle//ora_drop_tables.sh: line 43: //parall_cmd_truncate.sh: Permission denied
+cat: //seq.log: No such file or directory
+chmod: changing permissions of `//parall_cmd_truncate.sh': Operation not permitted
+chmod: changing permissions of `//parall_cmd_drop.sh': Operation not permitted
+
+DEBUG	2020-08-03 13:38:29,971	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:42:23,486	
+call ora_drop_tables():
+DEBUG	2020-08-03 13:42:24,124	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:42:24,230	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 13:42:24,231	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:42:24,742	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:42:24,839	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 13:42:24,839	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 13:42:24,840	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:42:25,259	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:42:25,352	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 13:42:25,354	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 13:42:25,354	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 13:42:35,798	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 13:42:35,811	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 13:42:35,823	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 13:42:35,825	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:45:21,934	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:45:22,568	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:45:22,673	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:45:22,674	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:45:23,084	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:45:23,096	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:45:23,107	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:45:23,108	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:45:33,528	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:45:33,535	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:45:33,562	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:45:33,563	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:45:34,143	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:45:34,154	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:45:34,169	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:45:34,169	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:46:03,935	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:46:04,628	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:46:04,646	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:46:04,646	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:46:05,174	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:46:05,185	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:46:05,198	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:46:05,200	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:46:15,622	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:46:15,630	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:46:15,779	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:46:15,780	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:46:16,083	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:46:16,097	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:46:16,109	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:46:16,109	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:47:36,438	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:47:37,123	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:47:37,230	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:47:37,231	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:47:37,640	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:47:37,653	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:47:37,665	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:47:37,666	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:47:38,083	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:47:38,148	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:47:38,151	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:47:38,151	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:47:38,560	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:47:38,574	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:47:38,586	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:47:38,587	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:48:51,180	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:48:51,783	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:48:51,893	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-03 14:48:51,894	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:48:52,291	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:48:52,302	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:48:52,317	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:48:52,317	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:48:57,728	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:48:57,828	[192.168.238.56:22] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:48:57,830	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:48:57,831	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:48:58,335	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:48:58,347	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:48:58,360	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:48:58,362	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:49:58,557	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:49:59,259	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:49:59,373	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-03 14:49:59,373	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:49:59,877	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:49:59,891	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:49:59,904	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:49:59,906	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:50:00,508	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:50:00,515	[192.168.238.56:22] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:50:00,540	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:50:00,542	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:50:01,114	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:50:01,215	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:50:01,228	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:50:01,229	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:25,718	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:51:26,337	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:26,422	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:51:26,423	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:26,818	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:26,831	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:51:26,843	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:51:26,844	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:27,227	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:27,234	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:51:27,261	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:51:27,262	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:27,735	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:27,743	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:51:27,757	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:51:27,758	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:44,163	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:51:44,836	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:44,859	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:51:44,860	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:45,252	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:45,265	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:51:45,278	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:51:45,279	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:51:55,591	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:51:55,598	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:51:55,621	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:51:55,622	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:52:06,034	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:52:06,046	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:52:06,059	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:52:06,060	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:00,886	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:53:01,467	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:01,643	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:53:01,644	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:02,049	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:02,061	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:53:02,074	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:53:02,076	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:02,463	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:02,471	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:53:02,494	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:53:02,495	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:02,756	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:02,775	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:53:02,786	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:53:02,787	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:25,428	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:53:35,970	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:36,029	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:53:36,029	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:36,355	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:36,369	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:53:36,382	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:53:36,383	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:36,771	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:36,776	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:53:36,803	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:53:36,804	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:53:37,175	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:53:37,186	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:53:37,199	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:53:37,200	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:29,873	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:54:30,690	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:54:30,714	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:54:30,714	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:31,242	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:54:31,345	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:54:31,345	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:54:31,346	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:32,678	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:54:32,727	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:54:32,730	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:54:32,730	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:38,104	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:54:38,117	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:54:38,130	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:54:38,132	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:58,906	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:54:59,534	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:54:59,559	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:54:59,560	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:54:59,919	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:00,016	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:55:00,017	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:55:00,018	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:55:00,435	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:00,442	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:55:00,466	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:55:00,467	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:55:00,845	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:00,856	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle//ora_drop_tables.sh  
+execute: ok
+DEBUG	2020-08-03 14:55:00,870	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:55:00,871	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:55:18,586	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:55:19,163	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:19,187	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:55:19,187	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:55:19,577	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:19,589	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:55:19,600	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:55:19,601	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:55:19,989	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:55:19,996	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:55:20,022	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:55:20,023	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:56:44,369	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:56:44,980	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:56:45,090	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:56:45,091	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:56:45,394	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:56:45,407	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:56:45,421	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:56:45,423	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:56:45,805	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:56:45,812	[192.168.238.56:22] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:56:45,836	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:56:45,837	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:06,177	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:57:16,825	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:16,844	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:57:16,845	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:17,233	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:17,250	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:57:17,263	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:57:17,264	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:27,681	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:27,695	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:57:27,716	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 14:57:27,717	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 14:57:27,717	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:35,936	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:57:36,487	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:36,592	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:57:36,593	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:37,001	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:37,015	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:57:37,029	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:57:37,030	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:57:37,718	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:57:37,731	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:57:37,755	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 14:57:37,755	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 14:57:37,756	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:26,259	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:58:26,727	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:26,771	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:58:26,771	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:27,055	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:27,067	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:58:27,080	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:58:27,081	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:27,308	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:27,323	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:58:27,347	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 14:58:27,347	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 14:58:27,348	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:47,463	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:58:48,278	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:48,379	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:58:48,380	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:48,785	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:48,885	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:58:48,886	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:58:48,886	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:58:49,400	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:58:49,412	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:58:49,436	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 14:58:49,436	[192.168.238.56:22] error: /home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 14:58:49,437	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:59:38,771	
+call ora_drop_tables():
+DEBUG	2020-08-03 14:59:39,258	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:59:39,282	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 14:59:39,282	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:59:39,680	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:59:39,691	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 14:59:39,702	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 14:59:39,704	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 14:59:39,986	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 14:59:40,001	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 14:59:40,089	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 14:59:40,090	[192.168.238.56:22] error: /home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 14:59:40,090	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:21:25,389	
+call ora_drop_tables():
+DEBUG	2020-08-03 15:21:26,013	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:21:26,040	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 15:21:26,041	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:21:26,344	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:21:26,444	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 15:21:26,456	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 15:21:26,458	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:21:26,844	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:21:26,858	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 15:21:26,885	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 15:21:26,885	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 15:21:26,886	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:22:21,580	
+call ora_drop_tables():
+DEBUG	2020-08-03 15:22:22,141	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:22:22,252	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 15:22:22,253	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:22:22,654	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:22:22,668	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 15:22:22,678	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 15:22:22,680	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:22:23,011	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:22:23,024	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 15:22:23,050	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 15:22:23,051	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+/home/oracle//ora_drop_tables.sh: line 47: sqlplus: command not found
+
+DEBUG	2020-08-03 15:22:23,052	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:23:19,007	
+call ora_drop_tables():
+DEBUG	2020-08-03 15:23:19,587	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:23:19,612	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 15:23:19,613	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:23:20,101	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:23:20,114	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 15:23:20,126	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 15:23:20,127	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:23:20,617	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:23:20,632	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 15:23:20,660	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 15:23:20,660	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+/home/oracle//ora_drop_tables.sh: line 47: sqlplus: command not found
+
+DEBUG	2020-08-03 15:23:20,661	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:25:38,952	
+call ora_drop_tables():
+DEBUG	2020-08-03 15:25:39,504	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:25:39,592	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 15:25:39,593	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:25:40,092	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:25:40,193	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 15:25:40,194	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 15:25:40,195	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:25:40,601	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:25:40,614	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 15:25:40,704	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 15:25:40,705	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+/home/oracle//ora_drop_tables.sh: line 47: sqlplus: command not found
+
+DEBUG	2020-08-03 15:25:40,706	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:26:20,388	
+call ora_drop_tables():
+DEBUG	2020-08-03 15:26:21,045	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:26:21,149	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 15:26:21,150	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:26:21,559	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:26:21,573	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 15:26:21,583	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 15:26:21,584	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 15:26:31,812	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 15:26:31,825	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 15:26:31,847	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 15:26:31,847	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 15: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 15:26:31,848	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:22:36,781	
+call ora_drop_tables():
+DEBUG	2020-08-03 16:22:38,522	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:22:38,594	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 16:22:38,595	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:22:39,795	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:22:39,920	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 16:22:39,920	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 16:22:39,921	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:22:41,247	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:22:41,289	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 16:22:41,442	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 16:22:41,442	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 16: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 16:22:41,443	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:29:24,474	
+call ora_drop_tables():
+DEBUG	2020-08-03 16:29:26,365	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:29:26,667	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 16:29:26,668	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:29:28,092	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:29:28,201	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 16:29:28,201	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 16:29:28,202	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:29:29,284	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:29:29,353	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 16:29:29,356	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 16:29:29,356	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 16: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 16:29:29,357	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:30:15,852	
+call ora_drop_tables():
+DEBUG	2020-08-03 16:30:19,922	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:30:20,069	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-03 16:30:20,070	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:30:21,578	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:30:21,769	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-03 16:30:21,770	[192.168.238.56:22] result: 
+DEBUG	2020-08-03 16:30:21,771	[192.168.238.56:22] close: ok
+DEBUG	2020-08-03 16:30:33,246	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-03 16:30:33,468	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-03 16:30:33,568	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-03 16:30:33,569	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 16: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-03 16:30:33,570	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:34:32,519	
+call ora_drop_tables():
+DEBUG	2020-08-04 09:34:33,005	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:34:33,031	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle//ora_drop_tables.sh'
+DEBUG	2020-08-04 09:34:33,032	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:34:33,263	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:34:33,281	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle//ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 09:34:33,298	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:34:33,299	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:34:33,615	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:34:33,642	[192.168.238.56:22 oracle] cmd: /home/oracle//ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 09:34:33,702	[192.168.238.56:22] result: generate the scripts for truncate tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+generate the scripts for drop tables:
+/home/oracle//zqz/parall_cmd_truncate.sh
+
+DEBUG	2020-08-04 09:34:33,702	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle//ora_drop_tables.sh: line 16: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-04 09:34:33,703	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:37:22,535	
+call ora_drop_tables():
+DEBUG	2020-08-04 09:37:22,966	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:37:22,992	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 09:37:22,992	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:37:33,225	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:37:33,239	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 09:37:33,254	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:37:33,256	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:37:33,502	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:37:33,519	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 09:37:33,545	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:37:33,545	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+/home/oracle/ora_drop_tables.sh: line 16: sqlplus: command not found
+cat: /home/oracle//zqz/seq.log: No such file or directory
+
+DEBUG	2020-08-04 09:37:33,547	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:37:33,807	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:37:33,825	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 09:37:33,841	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:37:33,843	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:40:32,022	
+call ora_drop_tables():
+DEBUG	2020-08-04 09:40:32,417	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:40:32,442	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 09:40:32,443	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:40:32,668	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:40:32,681	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 09:40:32,695	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:40:32,696	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:40:32,928	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:40:32,939	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 09:40:36,711	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+
+9 rows selected.
+
+
+DEBUG	2020-08-04 09:40:36,711	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+
+DEBUG	2020-08-04 09:40:36,711	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 09:40:37,084	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 09:40:37,098	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 09:40:37,109	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 09:40:37,110	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:23:34,949	
+call ora_drop_tables():
+DEBUG	2020-08-04 10:23:45,765	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:23:45,872	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 10:23:45,873	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:23:46,272	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:23:46,375	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:23:46,375	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:23:46,376	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:23:56,818	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:23:56,832	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 10:23:57,947	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+truncate table BIN$rATecPvfeR3gUzjuqMC6ng==$0;
+truncate table BIN$rATecPvgeR3gUzjuqMC6ng==$0;
+
+11 rows selected.
+
+
+DEBUG	2020-08-04 10:23:57,948	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+
+DEBUG	2020-08-04 10:23:57,948	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:23:58,360	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:23:58,458	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:23:58,458	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:23:58,459	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:26:32,993	
+call ora_drop_tables():
+DEBUG	2020-08-04 10:26:43,629	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:26:43,655	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 10:26:43,655	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:26:54,077	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:26:54,179	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:26:54,179	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:26:54,181	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:26:54,589	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:26:54,603	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 10:26:55,205	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+truncate table BIN$rATpA6VABxrgUzjuqMCrAA==$0;
+truncate table BIN$rATpA6VBBxrgUzjuqMCrAA==$0;
+truncate table BIN$rATecPvfeR3gUzjuqMC6ng==$0;
+truncate table BIN$rATecPvgeR3gUzjuqMC6ng==$0;
+
+13 rows selected.
+
+
+DEBUG	2020-08-04 10:26:55,206	[192.168.238.56:22] error: mkdir: cannot create directory `/home/oracle//zqz': File exists
+
+DEBUG	2020-08-04 10:26:55,206	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:27:05,750	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:27:05,766	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:27:05,777	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:27:05,778	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:27:21,258	
+call ora_drop_tables():
+DEBUG	2020-08-04 10:27:21,825	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:27:21,849	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 10:27:21,849	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:27:22,735	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:27:22,747	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:27:22,759	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:27:22,761	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:27:24,489	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:27:24,502	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 10:27:25,108	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rATqzAAsCWrgUzjuqMA8yw==$0;
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+truncate table BIN$rATqzAAtCWrgUzjuqMA8yw==$0;
+truncate table BIN$rATpA6VABxrgUzjuqMCrAA==$0;
+truncate table BIN$rATpA6VBBxrgUzjuqMCrAA==$0;
+truncate table BIN$rATecPvfeR3gUzjuqMC6ng==$0;
+truncate table BIN$rATecPvgeR3gUzjuqMC6ng==$0;
+
+15 rows selected.
+
+
+DEBUG	2020-08-04 10:27:25,108	[192.168.238.56:22] error: mkdir: invalid option -- 'r'
+Try `mkdir --help' for more information.
+
+DEBUG	2020-08-04 10:27:25,109	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:27:25,431	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:27:25,446	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:27:25,458	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:27:25,459	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:08,056	
+call ora_drop_tables():
+DEBUG	2020-08-04 10:32:08,554	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:08,665	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 10:32:08,665	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:09,022	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:09,035	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:32:09,047	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:32:09,048	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:09,371	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:09,381	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 10:32:09,990	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rAT7xwOZG7jgUzjuqMBtHg==$0;
+truncate table BIN$rAT7xwOaG7jgUzjuqMBtHg==$0;
+truncate table BIN$rATqzAAsCWrgUzjuqMA8yw==$0;
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+truncate table BIN$rATqzAAtCWrgUzjuqMA8yw==$0;
+truncate table BIN$rATpA6VABxrgUzjuqMCrAA==$0;
+truncate table BIN$rATpA6VBBxrgUzjuqMCrAA==$0;
+truncate table BIN$rATecPvfeR3gUzjuqMC6ng==$0;
+truncate table BIN$rATecPvgeR3gUzjuqMC6ng==$0;
+
+17 rows selected.
+
+
+DEBUG	2020-08-04 10:32:09,992	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:10,406	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:10,420	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:32:10,432	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:32:10,434	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:39,283	
+call ora_drop_tables():
+DEBUG	2020-08-04 10:32:39,990	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:40,012	[192.168.238.56:22] put 'ora_drop_tables\get_drop_table.sh' to '/home/oracle/ora_drop_tables.sh'
+DEBUG	2020-08-04 10:32:40,012	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:50,440	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:50,455	[192.168.238.56:22 oracle] cmd: chmod 775 /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:32:50,464	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:32:50,466	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:50,691	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:50,706	[192.168.238.56:22 oracle] cmd: /home/oracle/ora_drop_tables.sh orcl /home/oracle/ zqz zqz /oracle/app/product/11.2.0/db_1 10000 
+execute: ok
+DEBUG	2020-08-04 10:32:51,463	[192.168.238.56:22] result: 
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+1
+
+drop table TRUNCATE_TABLE purge ;
+
+truncate table BIN$rAT+PSJGHTvgUzjuqMAVRw==$0;
+truncate table BIN$rAT+PSJHHTvgUzjuqMAVRw==$0;
+truncate table BIN$rAT7xwOZG7jgUzjuqMBtHg==$0;
+truncate table BIN$rAT7xwOaG7jgUzjuqMBtHg==$0;
+truncate table BIN$rATqzAAsCWrgUzjuqMA8yw==$0;
+truncate table BIN$rARDZieiQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/T2m1x5CjLgUzjuqMBrXQ==$0;
+truncate table BIN$rARDZiejQV/gUzjuqMAnkQ==$0;
+truncate table BIN$q/TuhR/3f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TuhR/4f9/gUzjuqMAArw==$0;
+truncate table BIN$q/TqgC/Ee53gUzjuqMB8Vg==$0;
+truncate table BIN$q/TqgC/Fe53gUzjuqMB8Vg==$0;
+truncate table BIN$q/SNJUG0ff7gUzjuqMAIeg==$0;
+truncate table BIN$q/SNJUG1ff7gUzjuqMAIeg==$0;
+truncate table BIN$rATqzAAtCWrgUzjuqMA8yw==$0;
+truncate table BIN$rATpA6VABxrgUzjuqMCrAA==$0;
+truncate table BIN$rATpA6VBBxrgUzjuqMCrAA==$0;
+truncate table BIN$rATecPvfeR3gUzjuqMC6ng==$0;
+truncate table BIN$rATecPvgeR3gUzjuqMC6ng==$0;
+
+19 rows selected.
+
+
+DEBUG	2020-08-04 10:32:51,464	[192.168.238.56:22] close: ok
+DEBUG	2020-08-04 10:32:51,870	[192.168.238.56:22] connect: ok
+DEBUG	2020-08-04 10:32:51,884	[192.168.238.56:22 oracle] cmd: rm -f /home/oracle/ora_drop_tables.sh 
+execute: ok
+DEBUG	2020-08-04 10:32:51,893	[192.168.238.56:22] result: 
+DEBUG	2020-08-04 10:32:51,894	[192.168.238.56:22] close: ok
+DEBUG	2020-08-21 16:21:23,539	
+call logmnr_run():
+DEBUG	2020-08-21 16:21:23,548	
+call check_archivelog_status():
+DEBUG	2020-08-21 16:21:25,339	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:21:25,347	[192.168.238.56] sql: 
+    select log_mode from v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:21:25,347	[192.168.238.56] result: [('ARCHIVELOG',)]
+DEBUG	2020-08-21 16:21:25,357	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:21:25,360	
+call check_supplelog_status():
+DEBUG	2020-08-21 16:21:25,578	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:21:25,582	[192.168.238.56] sql: 
+    SELECT supplemental_log_data_min min FROM v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:21:25,582	[192.168.238.56] result: [('YES',)]
+DEBUG	2020-08-21 16:21:25,595	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:21:25,597	
+call check_archivelog_info():
+DEBUG	2020-08-21 16:21:25,669	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:21:25,782	[192.168.238.56] sql: 
+    select name from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:10:00','yyyy-mm-dd hh24:mi:ss')
+    and next_time<=to_date('2020-08-21 11:14:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO' and name <> 'None'
+     
+execute: ok
+DEBUG	2020-08-21 16:21:25,783	[192.168.238.56] result: []
+DEBUG	2020-08-21 16:21:25,796	[192.168.238.56] ora db close: ok
+ERROR	2020-08-21 16:21:25,799	too many values to unpack (expected 2)
+DEBUG	2020-08-21 16:23:49,219	
+call logmnr_run():
+DEBUG	2020-08-21 16:23:49,221	
+call check_archivelog_status():
+DEBUG	2020-08-21 16:23:49,660	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:23:49,663	[192.168.238.56] sql: 
+    select log_mode from v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:23:49,663	[192.168.238.56] result: [('ARCHIVELOG',)]
+DEBUG	2020-08-21 16:23:49,772	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:23:49,773	
+call check_supplelog_status():
+DEBUG	2020-08-21 16:23:49,874	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:23:49,878	[192.168.238.56] sql: 
+    SELECT supplemental_log_data_min min FROM v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:23:49,878	[192.168.238.56] result: [('YES',)]
+DEBUG	2020-08-21 16:23:49,974	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:23:49,976	
+call check_archivelog_info():
+DEBUG	2020-08-21 16:23:50,194	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:23:50,214	[192.168.238.56] sql: 
+    select name from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and next_time<=to_date('2020-08-21 13:14:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO' and name <> 'None'
+     
+execute: ok
+DEBUG	2020-08-21 16:23:50,214	[192.168.238.56] result: [('/oracle/app/archive2/1_1571_1024226467.dbf',)]
+DEBUG	2020-08-21 16:23:50,232	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:23:50,308	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:23:50,362	[192.168.238.56] sql: 
+    select round(sum(blocks * block_size)/1024/1024/1024,2) from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and next_time<=to_date('2020-08-21 13:14:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO'
+    order by FIRST_TIME
+     
+execute: ok
+DEBUG	2020-08-21 16:23:50,363	[192.168.238.56] result: [(0.04,)]
+DEBUG	2020-08-21 16:23:50,382	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:23:50,384	
+call logmnr_run_archlog():
+DEBUG	2020-08-21 16:23:50,459	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:24:06,355	[192.168.238.56] sqls: ["\n    begin\n        DBMS_LOGMNR.ADD_LOGFILE(logfilename => '/oracle/app/archive2/1_1571_1024226467.dbf',options => dbms_logmnr.new);\n\n    \n        DBMS_LOGMNR.START_LOGMNR(OPTIONS => DBMS_LOGMNR.DICT_FROM_ONLINE_CATALOG);\n\n    \n    end;", '\n    create table mc_logmnr_202008211623 as select * from v$logmnr_contents\n    ', '\n    begin DBMS_LOGMNR.END_LOGMNR; end;\n    '] 
+execute: ok
+DEBUG	2020-08-21 16:24:06,355	[192.168.238.56]
+DEBUG	2020-08-21 16:24:06,388	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:24:06,388	
+call get_table_info():
+DEBUG	2020-08-21 16:24:06,555	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:24:06,775	[192.168.238.56] sql: 
+    select TIMESTAMP,OPERATION,SQL_REDO,SQL_UNDO from mc_logmnr_202008211623
+    where SEG_NAME='T2' and SEG_OWNER='ZQZ' 
+    order by TIMESTAMP
+     
+execute: ok
+DEBUG	2020-08-21 16:24:06,775	[192.168.238.56] result: []
+DEBUG	2020-08-21 16:24:06,815	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:24:26,866	
+call logmnr_run():
+DEBUG	2020-08-21 16:24:26,868	
+call check_archivelog_status():
+DEBUG	2020-08-21 16:24:27,347	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:24:27,355	[192.168.238.56] sql: 
+    select log_mode from v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:24:27,355	[192.168.238.56] result: [('ARCHIVELOG',)]
+DEBUG	2020-08-21 16:24:27,456	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:24:27,457	
+call check_supplelog_status():
+DEBUG	2020-08-21 16:24:27,525	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:24:27,530	[192.168.238.56] sql: 
+    SELECT supplemental_log_data_min min FROM v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:24:27,530	[192.168.238.56] result: [('YES',)]
+DEBUG	2020-08-21 16:24:27,655	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:24:27,656	
+call check_archivelog_info():
+DEBUG	2020-08-21 16:24:27,827	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:24:27,854	[192.168.238.56] sql: 
+    select name from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and next_time<=to_date('2020-08-21 12:00:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO' and name <> 'None'
+     
+execute: ok
+DEBUG	2020-08-21 16:24:27,854	[192.168.238.56] result: []
+DEBUG	2020-08-21 16:24:27,864	[192.168.238.56] ora db close: ok
+ERROR	2020-08-21 16:24:27,866	too many values to unpack (expected 2)
+DEBUG	2020-08-21 16:33:33,298	
+call logmnr_run():
+DEBUG	2020-08-21 16:33:33,300	
+call check_archivelog_status():
+DEBUG	2020-08-21 16:33:33,668	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:33,673	[192.168.238.56] sql: 
+    select log_mode from v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:33:33,673	[192.168.238.56] result: [('ARCHIVELOG',)]
+DEBUG	2020-08-21 16:33:33,772	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:33:33,773	
+call check_supplelog_status():
+DEBUG	2020-08-21 16:33:33,978	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:33,982	[192.168.238.56] sql: 
+    SELECT supplemental_log_data_min min FROM v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:33:33,983	[192.168.238.56] result: [('YES',)]
+DEBUG	2020-08-21 16:33:34,075	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:33:34,077	
+call check_archivelog_info():
+DEBUG	2020-08-21 16:33:34,393	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:34,443	[192.168.238.56] sql: 
+    select name from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and first_time<=to_date('2020-08-21 12:00:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO' and name <> 'None'
+     
+execute: ok
+DEBUG	2020-08-21 16:33:34,444	[192.168.238.56] result: [('/oracle/app/archive2/1_1571_1024226467.dbf',)]
+DEBUG	2020-08-21 16:33:34,466	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:33:34,541	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:34,577	[192.168.238.56] sql: 
+    select round(sum(blocks * block_size)/1024/1024/1024,2) from v$archived_log 
+    where
+    first_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and first_time<=to_date('2020-08-21 12:00:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO'
+    order by FIRST_TIME
+     
+execute: ok
+DEBUG	2020-08-21 16:33:34,578	[192.168.238.56] result: [(0.04,)]
+DEBUG	2020-08-21 16:33:34,592	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:33:34,594	
+call logmnr_run_archlog():
+DEBUG	2020-08-21 16:33:34,662	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:47,318	[192.168.238.56] sqls: ["\n    begin\n        DBMS_LOGMNR.ADD_LOGFILE(logfilename => '/oracle/app/archive2/1_1571_1024226467.dbf',options => dbms_logmnr.new);\n\n    \n        DBMS_LOGMNR.START_LOGMNR(OPTIONS => DBMS_LOGMNR.DICT_FROM_ONLINE_CATALOG);\n\n    \n    end;", '\n    create table mc_logmnr_202008211633 as select * from v$logmnr_contents\n    ', '\n    begin DBMS_LOGMNR.END_LOGMNR; end;\n    '] 
+execute: ok
+DEBUG	2020-08-21 16:33:47,318	[192.168.238.56]
+DEBUG	2020-08-21 16:33:47,390	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:33:47,391	
+call get_table_info():
+DEBUG	2020-08-21 16:33:47,895	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:33:48,306	[192.168.238.56] sql: 
+    select TIMESTAMP,OPERATION,SQL_REDO,SQL_UNDO from mc_logmnr_202008211633
+    where SEG_NAME='T2' and SEG_OWNER='ZQZ' 
+    order by TIMESTAMP
+     
+execute: ok
+DEBUG	2020-08-21 16:33:48,306	[192.168.238.56] result: []
+DEBUG	2020-08-21 16:33:48,407	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:49:49,117	
+call logmnr_run():
+DEBUG	2020-08-21 16:49:49,120	
+call check_archivelog_status():
+DEBUG	2020-08-21 16:49:49,550	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:49:49,554	[192.168.238.56] sql: 
+    select log_mode from v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:49:49,554	[192.168.238.56] result: [('ARCHIVELOG',)]
+DEBUG	2020-08-21 16:49:49,656	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:49:49,657	
+call check_supplelog_status():
+DEBUG	2020-08-21 16:49:49,741	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:49:49,746	[192.168.238.56] sql: 
+    SELECT supplemental_log_data_min min FROM v$database
+     
+execute: ok
+DEBUG	2020-08-21 16:49:49,746	[192.168.238.56] result: [('YES',)]
+DEBUG	2020-08-21 16:49:49,761	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:49:49,763	
+call check_archivelog_info():
+DEBUG	2020-08-21 16:49:49,876	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:49:49,894	[192.168.238.56] sql: 
+    select name from v$archived_log 
+    where
+    next_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and first_time<=to_date('2020-08-21 12:00:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO' and name <> 'None'
+     
+execute: ok
+DEBUG	2020-08-21 16:49:49,894	[192.168.238.56] result: [('/oracle/app/archive2/1_1570_1024226467.dbf',), ('/oracle/app/archive2/1_1571_1024226467.dbf',)]
+DEBUG	2020-08-21 16:49:49,907	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:49:49,987	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:49:50,065	[192.168.238.56] sql: 
+    select round(sum(blocks * block_size)/1024/1024/1024,2) from v$archived_log 
+    where
+    next_time>=to_date('2020-08-21 08:00:00','yyyy-mm-dd hh24:mi:ss')
+    and first_time<=to_date('2020-08-21 12:00:00','yyyy-mm-dd hh24:mi:ss') 
+    and standby_dest='NO'
+    order by FIRST_TIME
+     
+execute: ok
+DEBUG	2020-08-21 16:49:50,065	[192.168.238.56] result: [(0.08,)]
+DEBUG	2020-08-21 16:49:50,079	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:49:50,081	
+call logmnr_run_archlog():
+DEBUG	2020-08-21 16:49:50,178	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:50:19,683	[192.168.238.56] sqls: ["\n    begin\n        DBMS_LOGMNR.ADD_LOGFILE(logfilename => '/oracle/app/archive2/1_1570_1024226467.dbf',options => dbms_logmnr.new);\n\n    \n        DBMS_LOGMNR.ADD_LOGFILE(logfilename => '/oracle/app/archive2/1_1571_1024226467.dbf',options => dbms_logmnr.addfile);\n\n    \n        DBMS_LOGMNR.START_LOGMNR(OPTIONS => DBMS_LOGMNR.DICT_FROM_ONLINE_CATALOG);\n\n    \n    end;", '\n    create table mc_logmnr_202008211649 as select * from v$logmnr_contents\n    ', '\n    begin DBMS_LOGMNR.END_LOGMNR; end;\n    '] 
+execute: ok
+DEBUG	2020-08-21 16:50:19,684	[192.168.238.56]
+DEBUG	2020-08-21 16:50:19,768	[192.168.238.56] ora db close: ok
+DEBUG	2020-08-21 16:50:19,769	
+call get_table_info():
+DEBUG	2020-08-21 16:50:19,972	[192.168.238.56] oracle db connect: ok
+DEBUG	2020-08-21 16:50:20,474	[192.168.238.56] sql: 
+    select TIMESTAMP,OPERATION,SQL_REDO,SQL_UNDO from mc_logmnr_202008211649
+    where SEG_NAME='T2' and SEG_OWNER='ZQZ' 
+    order by TIMESTAMP
+     
+execute: ok
+DEBUG	2020-08-21 16:50:20,475	[192.168.238.56] result: []
+DEBUG	2020-08-21 16:50:20,587	[192.168.238.56] ora db close: ok
